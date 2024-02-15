@@ -1,2 +1,2 @@
 # neurons-frying
-My data Science learning processes.
+my data science learning processes.
