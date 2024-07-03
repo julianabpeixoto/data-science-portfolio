@@ -1,7 +1,7 @@
 # US School Shootings Analysis
 
 ## Project Overview
-As the final project of Module 2: Data Base of 'Santander Coders 2023 | 2º Semestre - DS (3)', taught by Aruã de Mello Sousa, this project involves performing exploratory data analysis on the US School Shootings (1970-2022) dataset using Python and PostgreSQL. The goal is to analyze the data, answer specific questions, and gain insights into the patterns and factors related to school shootings in the United States. The analysis revealed several interesting trends and patterns detailed in the file (/adabd_jbp_projeto_final_us_school_shootings.ipynb).
+As the final project of Module 2: Data Base of 'Santander Coders 2023 | 2º Semestre - DS (3)', taught by Aruã de Mello Sousa, this project involves performing exploratory data analysis on the US School Shootings (1970-2022) dataset using Python and PostgreSQL. The goal is to analyze the data, answer specific questions, and gain insights into the patterns and factors related to school shootings in the United States. The analysis revealed several interesting trends and patterns detailed in the [file](adabd_jbp_projeto_final_us_school_shootings.ipynb).
 
 ## Objectives
 
@@ -56,13 +56,13 @@ This public dataset contains factual and anonymized information about 2,061 scho
 ## Files
 
 - **Data**: Contains the raw dataset files.
-  - (/INCIDENT.csv)
-  - (/SHOOTER.csv)
-  - (/VICTIM.csv)
-  - (/WEAPON.csv)
+  - [INCIDENT.csv](INCIDENT.csv)
+  - [SHOOTER.csv](SHOOTER.csv)
+  - [VICTIM.csv](VICTIM.csv)
+  - [WEAPON.csv](WEAPON.csv)
   - 
 - **Code**: Contains the Python scripts and SQL queries used for the analysis and the detailed report on the analysis and findings.
-  - (/adabd_jbp_projeto_final_us_school_shootings.ipynb)
+  - [Code](adabd_jbp_projeto_final_us_school_shootings.ipynb)
 
 ## Contact
 
@@ -75,7 +75,3 @@ Feel free to contact me with any questions or want to collaborate on future proj
 Thank you for visiting my portfolio!
 
 ---
-
-<p align="center">
-  <img src="../../images/neurons_frying_logo.png" alt="Neurons Frying Logo" width="200"/>
-</p>
