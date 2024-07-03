@@ -1,7 +1,7 @@
 # US School Shootings Analysis
 
 ## Project Overview
-As the final project of Module 2: Data Base of 'Santander Coders 2023 | 2º Semestre - DS (3)', taught by Aruã de Mello Sousa, this project involves performing exploratory data analysis on the US School Shootings (1970-2022) dataset using Python and PostgreSQL. The goal is to analyze the data, answer specific questions, and gain insights into the patterns and factors related to school shootings in the United States. The analysis revealed several interesting trends and patterns detailed in the [file](adabd_jbp_projeto_final_us_school_shootings.ipynb).
+As the final project of Module 3: Data Base of 'Santander Coders 2023 | 2º Semestre - DS (3)', taught by Aruã de Mello Sousa, this project involves performing exploratory data analysis on the US School Shootings (1970-2022) dataset using Python and PostgreSQL. The goal is to analyze the data, answer specific questions, and gain insights into the patterns and factors related to school shootings in the United States. The analysis revealed several interesting trends and patterns detailed in the [file](adabd_jbp_projeto_final_us_school_shootings.ipynb).
 
 ## Objectives
 
