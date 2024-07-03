@@ -1,5 +1,28 @@
 # US School Shootings Analysis
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Project Motivation](#project-motivation)
+3. [Objectives](#objectives)
+   - [General Objective](#general-objective)
+   - [Specific Objectives](#specific-objectives)
+4. [About the Dataset](#about-the-dataset)
+   - [Tables Description](#tables-description)
+5. [Tasks Completed](#tasks-completed)
+   - [Data Loading and Initial Inspection](#data-loading-and-initial-inspection)
+   - [Descriptive Analysis](#descriptive-analysis)
+   - [SQL Query Analysis](#sql-query-analysis)
+   - [Visualization](#visualization)
+6. [Main Skills and Features Used](#main-skills-and-features-used)
+7. [Challenges and Solutions](#challenges-and-solutions)
+8. [Results and Insights](#results-and-insights)
+9. [Next Steps](#next-steps)
+10. [Acknowledgements](#acknowledgements)
+11. [Technical Stack](#technical-stack)
+12. [Files](#files)
+13. [Contact](#contact)
+
+---
 ## Project Overview
 As the final project of Module 3: Database of 'Santander Coders 2023 | 2nd Semester - DS (3)', taught by Aruã de Mello Sousa, this project involves performing exploratory data analysis on the US School Shootings (1970-2022) dataset using Python and PostgreSQL. The goal is to analyze the data, answer specific questions, and gain insights into the patterns and factors related to school shootings in the United States. The analysis revealed several interesting trends and patterns detailed in the [notebook](adabd_jbp_projeto_final_us_school_shootings.ipynb).
 
