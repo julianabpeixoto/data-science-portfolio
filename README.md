@@ -8,7 +8,6 @@ Welcome to **Neurons Frying**, a compilation of projects I have developed as a d
 - [Projects](#projects)
   - [Project 1: US School Shootings Analysis](#project-1-us-school-shootings-analysis)
   - [Project 3: Statistical Analysis of School Shootings in the US concerning City Population](#project-3-statistical-analysis-of-school-shootings-in-the-US-concerning-city-population)
-)
 - [Contact](#contact)
 
 ## Introduction
@@ -29,7 +28,7 @@ As a passionate new data science student, I constantly explore new datasets and 
 **Description**: This project analyzes the frequency of school shootings in the US relative to city population sizes from 1970 to 2022. I chose to continue with the analysis initiated in Project 1 to deepen my learning and analysis. By using Python and data visualization libraries, the goal is to uncover patterns that can inform public policies and preventive measures.
 - **Technologies**: Python, Pandas, Numpy, Matplotlib
 - **Files**:
-  -   - [Detailed Project](https://github.com/julianabpeixoto/neurons-frying/blob/main/03.SC2023_Module4/README.md))
+  - [Detailed Project](https://github.com/julianabpeixoto/neurons-frying/blob/main/03.SC2023_Module4/README.md))
         
 ## Contact
 
