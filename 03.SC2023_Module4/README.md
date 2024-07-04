@@ -1,4 +1,4 @@
-# Statistical Analysis of Cities in Relation to the Average Total Population
+# Statistical Analysis of School Shootings in the U.S. concerning City Population
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -27,7 +27,7 @@
 As the final project of Module 4: Statistics of 'Santander Coders 2023 | 2nd Semester - DS (3)', taught by Lucas Hermeto, this project analyzes the frequency of school shootings in the US relative to city population sizes from 1970 to 2022. I chose to continue with the analysis initiated in the [previous module](https://github.com/julianabpeixoto/neurons-frying/blob/main/santander_coders_2023_2semestre_trilha_data_science_banco_dados_projeto_final/README.md#main-skills-and-features-used) to deepen my learning and analysis. By using Python and data visualization libraries, the goal is to uncover patterns that can inform public policies and preventive measures.
 
 ## Project Motivation
-This project was motivated by the need to better understand the population distribution of cities and how they compare to the national average. This understanding can help formulate public policies and allocate resources.
+This project was motivated by the need to understand better the population distribution of cities and how they compare to the national average. This understanding can help formulate public policies and allocate resources.
 
 ## Objectives
 
