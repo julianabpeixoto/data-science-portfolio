@@ -7,6 +7,7 @@ Welcome to **Neurons Frying**, a compilation of projects I have developed as a d
 - [Introduction](#introduction)
 - [Projects](#projects)
   - [Project 1: US School Shootings Analysis](#project-1-us-school-shootings-analysis)
+  - [Project 3: Statistical Analysis of Cities in Relation to the Average Total Population] (
 - [Contact](#contact)
 
 ## Introduction
@@ -20,7 +21,7 @@ As a passionate new data science student, I constantly explore new datasets and 
 **Description**: This project involves performing an exploratory data analysis on a dataset using Python and PostgreSQL. The dataset used is the US School Shootings (1970-2022) available on Kaggle. The project includes data cleaning, descriptive analysis, and answering specific questions through SQL queries.
 - **Technologies**: Python, PostgreSQL, Pandas
 - **Files**:
-  -   - [Detailed Report](...projects/us_school_shootings_analysis/README.md)
+  -   - [Detailed Project](...projects/us_school_shootings_analysis/README.md)
 
 ## Contact
 
