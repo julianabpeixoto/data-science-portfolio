@@ -7,7 +7,7 @@ Welcome to **Neurons Frying**, a compilation of projects I have developed as a d
 - [Introduction](#introduction)
 - [Projects](#projects)
   - [Project 1: US School Shootings Analysis](#project-1-us-school-shootings-analysis)
-  - [Project 3: # Statistical Analysis of School Shootings in the US concerning City Population](#project-3-statistical-analysis-of-school-shootings-in-the-US-concerning-city-population)
+  - [Project 3: Statistical Analysis of School Shootings in the US concerning City Population](#project-3-statistical-analysis-of-school-shootings-in-the-US-concerning-city-population)
 )
 - [Contact](#contact)
 
