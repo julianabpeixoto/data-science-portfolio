@@ -1,0 +1,131 @@
+Last login: Mon Feb 26 17:11:16 on ttys003
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git commit -m 'Átualizao1[ Melhorias em jbp_projeto_final.ipynb'
+[main 456f049] Átualizao1[ Melhorias em jbp_projeto_final.ipynb
+ 1 file changed, 1599 insertions(+), 175 deletions(-)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git branch
+* main
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout -b <deploy1>
+zsh: parse error near `\n'
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout -b <deploy1>
+zsh: parse error near `\n'
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout -b deploy1 
+Switched to a new branch 'deploy1'
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git push origin deploy1
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 29.45 KiB | 9.82 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'deploy1' on GitHub by visiting:
+remote:      https://github.com/julianabpeixoto/neurons-frying/pull/new/deploy1
+remote: 
+To https://github.com/julianabpeixoto/neurons-frying.git
+ * [new branch]      deploy1 -> deploy1
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git status
+On branch deploy1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % add santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+zsh: command not found: add
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git add santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git commit -m 'Atualização 3 em nova brunch'
+[deploy1 a798c24] Atualização 3 em nova brunch
+ 1 file changed, 1211 insertions(+), 201 deletions(-)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git status
+On branch deploy1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git status
+On branch deploy1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git brunch
+git: 'brunch' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git branch
+* deploy1
+  main
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git add santander_coders_2023_2semestre_trilha_data_science_tecnicas_programacao_1_projeto_final/jbp_projeto_final.ipynb
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git commit -m "Atualização final em deploy1"
+[deploy1 72b057b] Atualização final em deploy1
+ 1 file changed, 408 insertions(+), 304 deletions(-)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git status
+On branch deploy1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout deploy1
+Already on 'deploy1'
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout deploy1
+Switched to branch 'deploy1'
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git pull origin main
+From https://github.com/julianabpeixoto/neurons-frying
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git merge deploy1
+Updating 456f049..72b057b
+Fast-forward
+ .../jbp_projeto_final.ipynb                        | 1920 ++++++++++++++++----
+ 1 file changed, 1517 insertions(+), 403 deletions(-)
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git add .
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git commit -m 'Merge branch deploy1 na main'
+[main 51ace71] Merge branch deploy1 na main
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .DS_Store
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % git push origin main
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 25.36 KiB | 6.34 MiB/s, done.
+Total 11 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 3 local objects.
+To https://github.com/julianabpeixoto/neurons-frying.git
+   0e960eb..51ace71  main -> main
+(base) julianapeixoto@Julianas-MacBook-Air neurons-frying % 
