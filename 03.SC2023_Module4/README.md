@@ -27,12 +27,15 @@
 As the final project of Module 4: Statistics of 'Santander Coders 2023 | 2nd Semester - DS (3)', taught by Lucas Hermeto, this project analyzes the frequency of school shootings in the US relative to city population sizes from 1970 to 2022. I chose to continue with the analysis initiated in the [previous module](https://github.com/julianabpeixoto/neurons-frying/blob/main/santander_coders_2023_2semestre_trilha_data_science_banco_dados_projeto_final/README.md#main-skills-and-features-used) to deepen my learning and analysis. By using Python and data visualization libraries, the goal is to uncover patterns that can inform public policies and preventive measures.
 
 ## Project Motivation
-This project was motivated by the need to understand better the population distribution of cities and how they compare to the national average. This understanding can help formulate public policies and allocate resources.
+School shootings have been a persistent and tragic issue in the United States, impacting countless lives and raising urgent questions about safety, gun control, and community well-being. This project aims to understand the patterns and underlying factors associated with school shootings from 1970 to 2022. Analyzing these incidents about city populations and legislative changes aims to provide data-driven insights that can inform policymakers, educators, and community leaders in their efforts to prevent future tragedies and create safer environments for students.
 
 ## Objectives
 
 ### General Objective
-- Conduct a statistical analysis of the percentage distribution of cities in relation to the average total population.
+Perform an exploratory data analysis of two datasets to test 3 hypotheses:
+- In the United States, the majority of school shootings that occurred between 1970 and 2022 with the use of firearms happened in cities with a total population 20% smaller than the median population of US cities in 2022.
+- Lower levels of gun legislation (2023) are related to higher numbers of school shootings with firearms (1970-2022).
+- The passage of time (measured in decades) and the level of gun legislation (2023) have a statistically significant effect on the total number of school shootings with firearms (1970-2020).
 
 ### Specific Objectives
 1. Load and inspect the dataset.
@@ -41,7 +44,9 @@ This project was motivated by the need to understand better the population distr
 4. Visualize the results clearly and informatively.
 
 ## About the Dataset
-The dataset used contains information about the population of various cities. The data was obtained from public sources and is used to perform statistical analyses and visualizations.
+To test the hypotheses, two datasets were used and are described below:
+- **US School Shootings (1970-2022)**: Available on Kaggle, this dataset contains factual and anonymized information about 2,061 school shootings in the United States that occurred between 1970 and 2022. The data is structured as a relational database, with multiple tables linked by a unique incident identification number (incident_id). The tables include details about the incidents, victims, shooters, and weapons used.
+- **US Census Bureau, 2022 American Community Survey 1-Year Estimates**: Available on the United States Census Bureau website, this dataset consists of one table that provides observations on the estimated population of all US cities. The data is based on a sample and includes a margin of error representing the uncertainty of the estimates. The 90% margin of error indicates the range within which the true population value likely falls. Estimates are also subject to non-sampling errors.
 
 ## Tasks Completed
 
