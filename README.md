@@ -1,6 +1,6 @@
-# Neurons Frying: Data Science Student Projects
+# Data Science Projects 2024
 
-Welcome to **Neurons Frying**, a compilation of projects I have developed as a data science student. This repository exhibits my journey in data science, featuring various projects that showcase my data analysis, machine learning, and data visualization skills.
+Welcome to my portfolio, a compilation of projects I have developed as a data science student and professional. This repository exhibits my journey in data science, featuring various projects that showcase my data analysis, machine learning, and data visualization skills.
 
 ## Table of Contents
 
