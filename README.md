@@ -47,6 +47,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
 - **File**: [Detailed Project](https://github.com/julianabpeixoto/neurons-frying/blob/main/05.SC2023_Module6/README.md)
 - **Feature Importance Plot for XGBoost after hyperparameters optimization**:
 <img src="https://github.com/julianabpeixoto/neurons-frying/assets/150071803/51c21034-9bb0-4941-9793-b96a1bd2fd57" alt="Feature Importance Plot for XGBoost after hyperparameters optimization" width="500">
+
 - **Impact Statement**: The developed models could aid mental health professionals in identifying at-risk individuals by accurately predicting which individuals are likely to seek treatment based on demographic and behavioral data. This predictive capability enables more targeted interventions and resource allocation, improving treatment outcomes and overall mental health support systems. The project also underscores the importance of data-driven approaches in public health policy and mental health care strategies.
 
 ## Contact
