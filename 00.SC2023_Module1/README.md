@@ -57,6 +57,8 @@ The dataset used in this project is the Water Potability Dataset from Kaggle. It
 - Evaluation of the KNN algorithm using different K and distance metrics values.
 - Comparison with Scikit-Learn's KNN implementation.
 
+<img width="606" alt="metod" src="https://github.com/julianabpeixoto/data-science-portfolio/assets/150071803/7ff14529-eff9-4fa2-b2eb-026255b2cd1e">
+
 ## Main Skills and Tools Used
 ### Data Analysis and Preprocessing:
 - Custom functions for data manipulation and preprocessing.
