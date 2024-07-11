@@ -1,36 +1,58 @@
-# Firearms Datasets Cross-Referencing and Matching System
+
+# Firearms Import Control Cross-Referencing and Matching System
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Project Motivation](#project-motivation)
+3. [Objectives](#objectives)
+   - [General Objective](#general-objective)
+   - [Specific Objectives](#specific-objectives)
+4. [About the Dataset](#about-the-dataset)
+5. [Methodology](#methodology)
+   - [Import and Initial Processing](#import-and-initial-processing)
+   - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+   - [Data Transformation](#data-transformation)
+   - [Cross-Referencing and Matching](#cross-referencing-and-matching)
+   - [Post-Matching Processing](#post-matching-processing)
+   - [Final Data Preparation](#final-data-preparation)
+   - [Exporting Results](#exporting-results)
+6. [Results and Insights](#results-and-insights)
+7. [Challenges and Solutions](#challenges-and-solutions)
+8. [Technologies Used](#technologies-used)
+9. [Conclusion](#conclusion)
+10. [Future Work](#future-work)
+11. [Contact](#contact)
 
 ## Project Overview
-This project aims to create a system for cross-referencing and matching two firearms datasets to identify patterns and connections across documentation and importation data.
-
-The goal is to enhance data accuracy and provide meaningful insights into firearm-related import control.
-
-It involves extensive data cleaning, transformation, and matching processes to ensure accurate and reliable cross-referencing of firearms data from different sources.
+This project aims to create a system for cross-referencing and matching two firearms datasets to identify patterns and connections across documentation and importation data. The goal is to enhance data accuracy and provide meaningful insights into firearm-related import control. It involves extensive data cleaning, transformation, and matching processes to ensure accurate and reliable cross-referencing of firearms data from different sources.
 
 ## Project Motivation
 As a volunteer supporting data teams in NGOs focused on public safety, I recognized the need for robust data integration and analysis tools. This project leverages data science techniques and collective effort to improve data handling and analysis in firearms import control.
 
 ## Objectives
-- **General Objective**: Develop a system to cross-reference and match entries from distinct firearms datasets.
-- **Specific Objectives**:
-  1. Integrate datasets from different sources.
-  2. Perform data cleaning and preparation.
-  3. Conduct data transformation.
-  4. Implement algorithms to match records across datasets.
-  5. Execute post-matching processing.
-  6. Explore the matched data to identify patterns and insights.
-  7. Complete final data preparation.
-  8. Export results.
 
-## Dataset
+### General Objective
+Develop a system to cross-reference and match entries from distinct firearms datasets.
+
+### Specific Objectives
+1. Integrate datasets from different sources.
+2. Perform data cleaning and preparation.
+3. Conduct data transformation.
+4. Implement algorithms to match records across datasets.
+5. Execute post-matching processing.
+6. Explore the matched data to identify patterns and insights.
+7. Complete final data preparation.
+8. Export results.
+
+## About the Dataset
 - **Dataset 1**: Contains information on firearms documentation (12,462 entries and 30 columns).
 - **Dataset 2**: Contains details on firearms importation (27,333 entries and 30 columns).
 
 ## Methodology
 
 ### Import and Initial Processing
-- **Documentation Database (df_doc)**: Import an Excel file containing firearms documentation data, ensuring specific columns are treated as strings to preserve formatting.
-- **Importation Database (df_imp)**: Import another Excel file containing firearms importation data, assigning a default numeric index.
+- **Documentation Database (df_doc)**: Import an Excel file containing firearms documentation data (12,462 entries and 30 columns), ensuring specific columns are treated as strings to preserve formatting.
+- **Importation Database (df_imp)**: Import another Excel file containing firearms importation data (27,333 entries and 30 columns), assigning a default numeric index.
 
 ### Data Cleaning and Preparation
 - **Column Cleaning**: Standardize column names by converting them to lowercase and replacing non-alphanumeric characters with underscores.
@@ -64,6 +86,7 @@ As a volunteer supporting data teams in NGOs focused on public safety, I recogni
 - Key findings from the analysis, including patterns, correlations, and any significant trends identified.
 
 ## Challenges and Solutions
+This project was challenging. I encountered several hurdles that required innovative solutions. Following are the three most significant challenges and the solutions to overcome them:
 
 ### 1. Data Cleaning and Standardization
 - **Challenge**: The datasets come from different sources with varying formats, column names, and data types.
@@ -96,3 +119,5 @@ Feel free to reach out if you have any questions or want to collaborate on futur
 - **Email**: jbertolucci@gmail.com
 - **LinkedIn**: [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
 - **GitHub**: [JulianaBPeixoto](https://github.com/julianabpeixoto)
+
+---
