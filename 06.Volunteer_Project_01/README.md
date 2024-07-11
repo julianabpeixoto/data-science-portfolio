@@ -139,7 +139,7 @@ This project has successfully developed a robust system for cross-referencing an
 - Collaborate with NGOs to apply the findings in real-world scenarios.
 
 ## Files
-- **[Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/README.md)**: Contains the full analysis and model implementation.
+- **[Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_datasets_cross_referencing_and_matching_system.ipynb)**: Contains the full analysis and model implementation.
 - **Data**: Data can not be provided since is from a private source.
 
 ## Contact
