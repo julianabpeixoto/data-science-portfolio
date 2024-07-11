@@ -72,7 +72,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
 - **Technologies**: Python, Pandas, Re
 - **Files**:
   - [Detailed Project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/README.md)
-  - [Notebook](https://github.com/julianabpeixoto/data-science-portfolio/tree/main/06.Volunteer_Project_01#project-overview))
+  - [Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_datasets_cross_referencing_and_matching_system.ipynb)
 - **Impact Satatement**: This project has created a robust system for cross-referencing and matching firearms datasets, significantly enhancing data accuracy and reliability. Integrating and harmonizing disparate data sources provides critical insights into firearm-related import control, aiding NGOs and public safety organizations in making informed decisions. The project's innovative approach to data cleaning, transformation, and matching algorithms sets a new standard for handling complex datasets. This system improves data integrity and paves the way for more advanced analyses and applications in public safety and policy development.
 
 ## Contact
