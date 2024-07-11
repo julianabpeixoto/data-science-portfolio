@@ -16,12 +16,14 @@
    - [Post-Matching Processing](#post-matching-processing)
    - [Final Data Preparation](#final-data-preparation)
    - [Exporting Results](#exporting-results)
-6. [Results and Insights](#results-and-insights)
-7. [Challenges and Solutions](#challenges-and-solutions)
-8. [Technologies Used](#technologies-used)
-9. [Conclusion](#conclusion)
-10. [Future Work](#future-work)
-11. [Contact](#contact)
+6. [Main Skillls Used](#main-skills-used)
+7. [Results and Insights](#results-and-insights)
+8. [Challenges and Solutions](#challenges-and-solutions)
+9. [Technologies Used](#technologies-used)
+10. [Conclusion](#conclusion)
+11. [Next Steps](#future-work)
+12. [Files](#files)
+13. [Contact](#contact)
 
 ## Project Overview
 This project aims to create a system for cross-referencing and matching two firearms datasets to identify patterns and connections across documentation and importation data. The goal is to enhance data accuracy and provide meaningful insights into firearm-related import control. It involves extensive data cleaning, transformation, and matching processes to ensure accurate and reliable cross-referencing of firearms data from different sources.
@@ -82,6 +84,29 @@ Develop a system to cross-reference and match entries from distinct firearms dat
 ### Exporting Results
 - **Export to Excel and CSV**: Export the final matched dataset to both Excel and CSV formats for further analysis or reporting.
 
+## Main Skills Used
+
+### Data Analysis:
+- **Pandas**: Utilized for data manipulation, cleaning, and preprocessing. It enabled efficient handling of large datasets and streamlined the process of merging and cross-referencing data.
+Data Cleaning and Preparation:
+
+- **Regex (Re Library)**: Employed for text manipulation tasks such as standardizing column names, removing special characters, and enforcing consistent data formats.
+
+### Data Transformation:
+- **String Manipulation**: Techniques applied to ensure uniformity in case (upper/lower), remove whitespace, and handle special characters, crucial for accurate matching.
+
+### Algorithm Development:
+- **Matching Algorithms**: Developed custom algorithms to define and apply match levels (perfect match, partial match) based on criteria like serial numbers and government marks.
+
+### Data Export:
+- **Excel and CSV Handling**: Implemented export functionalities to save the final matched dataset in both Excel and CSV formats, facilitating further analysis and reporting.
+
+### Version Control:
+- **Git**: Used for version control, ensuring systematic tracking of changes and facilitating collaboration.
+
+### Project Management:
+- **Jupyter Notebook**: Provided an interactive environment for developing and documenting the project, making it easier to present the workflow and results.
+
 ## Results and Insights
 - Key findings from the analysis, including patterns, correlations, and any significant trends identified.
 
@@ -108,10 +133,14 @@ This project was challenging. I encountered several hurdles that required innova
 ## Conclusion
 This project has successfully developed a robust system for cross-referencing and matching firearms datasets, enhancing data accuracy and providing meaningful insights for firearms import control.
 
-## Future Work
+## Next Steps
 - Explore advanced machine learning techniques for improved record matching.
 - Extend the system to include more datasets and broader analysis.
 - Collaborate with NGOs to apply the findings in real-world scenarios.
+
+## Files
+- **[Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/README.md)**: Contains the full analysis and model implementation.
+- **Data**: Data can not be provided since is from a private source.
 
 ## Contact
 Feel free to reach out if you have any questions or want to collaborate on future projects.
