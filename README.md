@@ -11,7 +11,7 @@ Welcome to my portfolio, a compilation of projects I have developed as a data sc
   - [Project 3: Statistical Analysis of School Shootings in the US concerning City Population](#project-3-statistical-analysis-of-school-shootings-in-the-us-concerning-city-population)
   - [Project 4: Predicting Firearm Brands: A Machine Learning Approach to Enhance Police Intelligence and Cataloging](#project-4-predicting-firearm-brands-a-machine-learning-approach-to-enhance-police-intelligence-and-cataloging)
   - [Project 5: Mental Health Treatment Analysis: Enhancing Understanding through Machine Learning](#project-5-mental-health-treatment-analysis-enhancing-understanding-through-machine-learning)
-  - [Project 6: Firearms Import Control Cross-Referencing and Matching System](project-6-firearms-import-control-cross-referencing-and-matching-system)
+  - [Project 6: Firearms Import Control Cross-Referencing and Matching System](#project-6-firearms-import-control-cross-referencing-and-matching-system)
 
 - [Contact](#contact)
 
