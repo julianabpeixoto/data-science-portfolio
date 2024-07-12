@@ -24,7 +24,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
 
 ## Projects
 
-### Project 0: KNN Lib ® 2024
+### Project 0: KNN Lib 2024
 **Description**: A recreation of the K-Nearest Neighbors (KNN) algorithm to classify a specific dataset to predict water potability. The implementation is done from scratch without using advanced libraries like Pandas, Numpy, or Scikit-Learn. Five students (Anderson Miranda, André Kuster, Artur Stein, João Souza, and I) collaborated to choose the dataset and develop the project.
 - **Technologies**: Python
 - **Files**:
@@ -45,7 +45,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
     - [Detailed Project](https://github.com/julianabpeixoto/neurons-frying/blob/main/santander_coders_2023_2semestre_trilha_data_science_banco_dados_projeto_final/README.md)
     - [Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/02.SC2023_Module3/adabd_jbp_projeto_final_us_school_shootings.ipynb)
 - **Bar plot showing the Number of Victims by State and Age Group** 
-<img src="[/mnt/data/vitimas+uf.png](https://github.com/julianabpeixoto/neurons-frying/assets/150071803/7cd14498-309f-46ea-9a5f-926c5ff76b3f)" alt="Number of Victims by State and Age Group" width="500"/>
+<img src="https://github.com/julianabpeixoto/neurons-frying/assets/150071803/7cd14498-309f-46ea-9a5f-926c5ff76b3f" alt="Number of Victims by State and Age Group" width="500"/>
 
 - **Impact Statement**: The analysis revealed that school shootings are more frequent in cities with populations below 20% of the 2022 median population, highlighting the need for targeted policy interventions. Additionally, exploring gun control legislation showed potential correlations between relaxed laws and increased shooting incidents, suggesting stricter laws may reduce such occurrences. This project underscores the importance of detailed demographic and legislative analysis in formulating effective safety policies.
 
