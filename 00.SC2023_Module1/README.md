@@ -196,6 +196,9 @@ The dataset used in this project is the Water Potability Dataset from Kaggle. It
 - [Notebook](https://github.com/aluipio/ds_ada_santander_knn/blob/main/Projeto_KNN.ipynb)
 - [Project Presentation (in Portuguese)](https://github.com/aluipio/ds_ada_santander_knn/blob/main/Projeto_KNN_presentation.pdf)
 
+## References
+https://www.mdpi.com/2073-4441/14/17/2592?utm_campaign=releaseissue_waterutm_medium=emailutm_source=releaseissueutm_term=titlelink36
+
 ## Contact
 Feel free to reach out if you have any questions or want to collaborate on future projects.
 - **Email:** jbertolucci@gmail.com

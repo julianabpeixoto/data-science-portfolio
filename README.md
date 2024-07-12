@@ -6,6 +6,7 @@ Welcome to my portfolio, a compilation of projects I have developed as a data sc
 
 - [Introduction](#introduction)
 - [Projects](#projects)
+  - [Project 0: KNN Lib ® 2024 🚀](#project-0-knn-lib-2024)
   - [Project 1: Exploratory Data Analysis of Online Sales](#project-1-exploratory-data-analysis-of-online-sales)
   - [Project 2: US School Shootings Analysis](#project-2-us-school-shootings-analysis)
   - [Project 3: Statistical Analysis of School Shootings in the US concerning City Population](#project-3-statistical-analysis-of-school-shootings-in-the-us-concerning-city-population)
@@ -23,12 +24,19 @@ My passion for data science stems from a deep commitment to uncovering insights 
 
 ## Projects
 
+### Project 0: KNN Lib ® 2024
+**Description**: A recreation of the K-Nearest Neighbors (KNN) algorithm to classify a specific dataset to predict water potability. The implementation is done from scratch without using advanced libraries like Pandas, Numpy, or Scikit-Learn. Five students (Anderson Miranda, André Kuster, Artur Stein, João Souza, and I) collaborated to choose the dataset and develop the project.
+- **Technologies**: Python
+- **Files**:
+  - [Detailed Project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/00.SC2023_Module1/README.md)
+  - [Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/01.SC2023_Module2/jbp_projeto_final.ipynb)
+
 ### Project 1: Exploratory Data Analysis of Online Sales
 **Description**: A hands-on exploration of real-world online sales data. It offers a unique opportunity to apply theoretical knowledge to practical scenarios. The Brazilian E-Commerce Public Dataset by Olist comprises nine .csv datasets and contains factual and anonymized information about 100,000 orders between 2016 and 2018 in various Brazilian marketplaces through the Olist Store.
 - **Technologies**: Python, Numpy, Pandas
 - **Files**:
   - [Detailed Project](https://github.com/julianabpeixoto/neurons-frying/blob/main/01.SC2023_Module2/README.md)
-  - [Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/01.SC2023_Module2/jbp_projeto_final.ipynb)
+  - [Notebook](https://github.com/aluipio/ds_ada_santander_knn/blob/main/Projeto_KNN.ipynb)
 
 ### Project 2: US School Shootings Analysis
 **Description**: This project involves performing an exploratory data analysis on a dataset using Python and PostgreSQL. The dataset used is the US School Shootings (1970-2022) available on Kaggle. The project includes data cleaning, descriptive analysis, and answering specific questions through SQL queries.
@@ -77,7 +85,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
 
 ## Contact
 
-Feel free to contact me with any questions or to collaborate on future projects.
+Feel free to contact me with any questions, feedback or to collaborate on future projects.
 
 - **Email**: [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
 - **LinkedIn**: [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
