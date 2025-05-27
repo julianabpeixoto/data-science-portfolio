@@ -1,4 +1,4 @@
-# Data Science Projects 2024
+# Data Science Projects
 
 Welcome to my portfolio, a compilation of projects I have developed as a data science student and professional. This repository exhibits my journey in data science, featuring projects that showcase my data analysis, machine learning, and data visualization skills.
 
@@ -85,7 +85,7 @@ My passion for data science stems from a deep commitment to uncovering insights 
 
 ## Contact
 
-Feel free to contact me with any questions, feedback or to collaborate on future projects.
+Feel free to contact me with any questions, feedback, or to collaborate on future projects.
 
 - **Email**: [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
 - **LinkedIn**: [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
