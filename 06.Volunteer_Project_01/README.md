@@ -1,152 +1,235 @@
-
 # Firearms Import Control Cross-Referencing and Matching System
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Project Motivation](#project-motivation)
-3. [Objectives](#objectives)
-   - [General Objective](#general-objective)
-   - [Specific Objectives](#specific-objectives)
-4. [About the Dataset](#about-the-dataset)
-5. [Methodology](#methodology)
-   - [Import and Initial Processing](#import-and-initial-processing)
-   - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-   - [Data Transformation](#data-transformation)
-   - [Cross-Referencing and Matching](#cross-referencing-and-matching)
-   - [Post-Matching Processing](#post-matching-processing)
-   - [Final Data Preparation](#final-data-preparation)
-   - [Exporting Results](#exporting-results)
-6. [Main Skillls Used](#main-skills-used)
-7. [Results and Insights](#results-and-insights)
-8. [Challenges and Solutions](#challenges-and-solutions)
-9. [Technologies Used](#technologies-used)
-10. [Conclusion](#conclusion)
-11. [Next Steps](#future-work)
-12. [Files](#files)
-13. [Contact](#contact)
+
+1. [Project at a Glance](#project-at-a-glance)
+2. [Project Overview](#project-overview)
+3. [Project Motivation](#project-motivation)
+4. [Objectives](#objectives)
+5. [About the Dataset](#about-the-dataset)
+6. [Methodology](#methodology)
+7. [Main Skills Used](#main-skills-used)
+8. [Outputs](#outputs)
+9. [Challenges and Solutions](#challenges-and-solutions)
+10. [Technologies Used](#technologies-used)
+11. [Responsible Data Note](#responsible-data-note)
+12. [Conclusion](#conclusion)
+13. [Next Steps](#next-steps)
+14. [Files](#files)
+15. [Contact](#contact)
+
+---
+
+## Project at a Glance
+
+* **Role:** Volunteer data scientist
+* **Domain:** Public safety, firearms policy, conflict-affected contexts
+* **Main task:** Cross-referencing and matching two heterogeneous datasets
+* **Core methods:** Data cleaning, harmonization, record linkage, QA checks, reproducible workflow
+* **Tools:** Python, pandas, regular expressions, Jupyter Notebook, Git
+* **Data access:** Private source; original data not shared
+
+---
 
 ## Project Overview
-This project aims to create a system for cross-referencing and matching two firearms datasets to identify patterns and connections across documentation and importation data. The goal is to enhance data accuracy and provide meaningful insights into firearm-related import control. It involves extensive data cleaning, transformation, and matching processes to ensure accurate and reliable cross-referencing of firearms data from different sources.
+
+This project develops a system for cross-referencing and matching two complementary firearms datasets to identify connections across documentation and importation records. The goal is to improve data accuracy and support more reliable analysis of firearm-related import control.
+
+The project involved extensive data cleaning, transformation, harmonization, and matching processes to improve consistency across data from different sources.
+
+---
 
 ## Project Motivation
-As a volunteer supporting data teams in NGOs focused on public safety, I recognized the need for robust data integration and analysis tools. This project leverages data science techniques and collective effort to improve data handling and analysis in firearms import control.
+
+This was a volunteer contribution to a data team supporting an international NGO working on public safety and conflict-affected contexts.
+
+Government and administrative datasets in this domain are often fragmented across systems, with inconsistent formats and partial overlaps. The project responds to a practical need: bringing two separately maintained datasets into a structure that allows them to be analyzed together, with documented assumptions and reproducible code.
+
+---
 
 ## Objectives
 
 ### General Objective
-Develop a system to cross-reference and match entries from distinct firearms datasets.
+
+Develop a system to cross-reference and match entries from two distinct firearms datasets.
 
 ### Specific Objectives
+
 1. Integrate datasets from different sources.
 2. Perform data cleaning and preparation.
 3. Conduct data transformation.
-4. Implement algorithms to match records across datasets.
+4. Implement logic to match records across datasets.
 5. Execute post-matching processing.
-6. Explore the matched data to identify patterns and insights.
+6. Explore the matched data to identify patterns.
 7. Complete final data preparation.
 8. Export results.
 
+---
+
 ## About the Dataset
-- **Dataset 1**: Contains information on firearms documentation (12,462 entries and 30 columns).
-- **Dataset 2**: Contains details on firearms importation (27,333 entries and 30 columns).
+
+The project worked with two complementary large-scale datasets covering firearms documentation and importation, respectively. Specific volumetric details, field names, and matching criteria are not disclosed in this repository due to the sensitivity of the source data.
+
+---
 
 ## Methodology
 
 ### Import and Initial Processing
-- **Documentation Database (df_doc)**: Import an Excel file containing firearms documentation data (12,462 entries and 30 columns), ensuring specific columns are treated as strings to preserve formatting.
-- **Importation Database (df_imp)**: Import another Excel file containing firearms importation data (27,333 entries and 30 columns), assigning a default numeric index.
+
+* Import documentation and importation datasets from spreadsheet files.
+* Ensure specific columns are treated as strings to preserve formatting.
+* Assign appropriate indexes for downstream processing.
 
 ### Data Cleaning and Preparation
-- **Column Cleaning**: Standardize column names by converting them to lowercase and replacing non-alphanumeric characters with underscores.
-- **Column Renaming**: Simplify and rename specific columns for easier reference.
-- **Data Type Enforcement**: Ensure columns have the correct data types (e.g., strings, integers).
-- **Missing Values Handling**: Replace NaN values with appropriate defaults (e.g., 'NA' for strings, 0 for integers).
-- **Data Harmonization**: Standardize category names across both datasets using predefined mappings.
+
+* Standardize column names by converting them to lowercase and replacing non-alphanumeric characters with underscores.
+* Simplify and rename selected columns for easier reference.
+* Enforce correct data types across the pipeline.
+* Replace missing values with documented defaults where appropriate.
+* Harmonize category names across both datasets using predefined mappings.
 
 ### Data Transformation
-- **Upper/Lower Case Conversion**: Convert specific columns to upper or lower case as needed.
-- **Whitespace and Special Character Removal**: Remove spaces, hyphens, and dots from specific columns to ensure consistency.
 
-### Cross-referencing and Matching
-- **Subset Creation**: Create subsets of both datasets with relevant columns for matching.
-- **Match Level Definition**: Define various match levels (e.g., perfect match, partial match) based on criteria such as serial number, government mark, category, and model.
-- **Matching Function**: Implement a function to check match levels between rows of the two datasets.
-- **Apply Matching Logic**: Apply the matching function to identify matches and assign match levels.
+* Apply case normalization to relevant columns.
+* Remove whitespace and special characters to improve consistency.
+* Prepare selected fields for matching across datasets.
+
+### Cross-Referencing and Matching
+
+* Create subsets of both datasets containing the fields relevant for matching.
+* Define a hierarchy of match levels, such as strict and partial matches, based on combinations of identifying fields and contextual attributes.
+* Implement a matching function to evaluate match levels between records across the two datasets.
+* Apply the matching logic and assign match levels accordingly.
 
 ### Post-Matching Processing
-- **Additional Matching**: Perform additional matching for rows that did not find a match in the initial pass.
-- **Error Checking**: Implement checks to ensure the accuracy of matches, especially for specific categories and exporting states.
+
+* Run additional matching passes for records that did not match in the initial round.
+* Apply consistency checks to validate matches and flag inconsistencies for review.
 
 ### Final Data Preparation
-- **Column Reorganization**: Reorganize columns for clarity and consistency.
-- **Merging Data**: Merge the matched documentation and importation datasets to create a final dataset with comprehensive information.
+
+* Reorganize columns for clarity and consistency.
+* Merge the matched documentation and importation datasets into a final consolidated dataset.
 
 ### Exporting Results
-- **Export to Excel and CSV**: Export the final matched dataset to both Excel and CSV formats for further analysis or reporting.
+
+* Export the final matched dataset to Excel and CSV formats for further analysis and reporting.
+
+---
 
 ## Main Skills Used
 
-### Data Analysis:
-- **Pandas**: Utilized for data manipulation, cleaning, and preprocessing. It enabled efficient handling of large datasets and streamlined the process of merging and cross-referencing data.
-Data Cleaning and Preparation:
+### Data Analysis
 
-- **Regex (Re Library)**: Employed for text manipulation tasks such as standardizing column names, removing special characters, and enforcing consistent data formats.
+* **pandas:** Used for data manipulation, cleaning, and preprocessing. It enabled efficient handling of large datasets and supported the merging and cross-referencing workflow.
 
-### Data Transformation:
-- **String Manipulation**: Techniques applied to ensure uniformity in case (upper/lower), remove whitespace, and handle special characters, crucial for accurate matching.
+### Data Cleaning and Preparation
 
-### Algorithm Development:
-- **Matching Algorithms**: Developed custom algorithms to define and apply match levels (perfect match, partial match) based on criteria like serial numbers and government marks.
+* **Regular expressions:** Applied to text manipulation tasks such as standardizing column names, removing special characters, and enforcing consistent data formats.
 
-### Data Export:
-- **Excel and CSV Handling**: Implemented export functionalities to save the final matched dataset in both Excel and CSV formats, facilitating further analysis and reporting.
+### Data Transformation
 
-### Version Control:
-- **Git**: Used for version control, ensuring systematic tracking of changes and facilitating collaboration.
+* **String manipulation:** Applied to ensure uniformity in case, remove whitespace, and handle special characters — all critical for accurate matching.
 
-### Project Management:
-- **Jupyter Notebook**: Provided an interactive environment for developing and documenting the project, making it easier to present the workflow and results.
+### Matching Logic
 
-## Results and Insights
-- Key findings from the analysis, including patterns, correlations, and any significant trends identified.
+* **Custom matching routines:** Designed to apply a hierarchy of match levels across multiple criteria, supporting both strict and partial matches.
+
+### Data Export
+
+* **Excel and CSV handling:** Implemented to make the final matched dataset available in formats suitable for further analysis and reporting.
+
+### Version Control
+
+* **Git:** Used for version control, ensuring systematic tracking of changes and supporting collaboration.
+
+### Reproducible Workflow
+
+* **Jupyter Notebook:** Used to document the analytical workflow, assumptions, processing steps, and outputs in a transparent and reproducible format.
+
+---
+
+## Outputs
+
+The pipeline produced a consolidated dataset that brought together two previously separate sources, allowing the partner NGO’s data team to examine patterns that were difficult to observe when the datasets were considered in isolation.
+
+The work focused on data quality, harmonization, matching logic, and reproducibility rather than inferential modeling. Specific findings derived from the matched data remain confidential to the partner organization.
+
+---
 
 ## Challenges and Solutions
-This project was challenging. I encountered several hurdles that required innovative solutions. Following are the three most significant challenges and the solutions to overcome them:
+
+The project involved several challenges that required deliberate methodological choices. Three of the most significant are described below.
 
 ### 1. Data Cleaning and Standardization
-- **Challenge**: The datasets come from different sources with varying formats, column names, and data types.
-- **Solution**: Standardize column names, enforce consistent data types, handle missing values, harmonize category names, and remove unnecessary characters.
+
+* **Challenge:** The datasets came from different sources, with varying formats, column names, and data types.
+* **Solution:** Standardized column names, enforced consistent data types, handled missing values, harmonized category labels, and removed unnecessary characters.
 
 ### 2. Accurate Matching of Records
-- **Challenge**: Variations in data entries make matching records complex.
-- **Solution**: Implement a detailed matching algorithm with multiple criteria to ensure accurate cross-referencing.
+
+* **Challenge:** Variations in data entries made record matching non-trivial, with risks of both false matches and missed matches.
+* **Solution:** Implemented a layered matching approach with multiple criteria, allowing strict and partial matches to be identified separately and reviewed accordingly.
 
 ### 3. Handling Missing and Incomplete Data
-- **Challenge**: Missing or incomplete data can lead to inaccurate analysis.
-- **Solution**: Replace missing values with appropriate defaults and perform additional matching for unmatched rows.
+
+* **Challenge:** Missing or incomplete fields can lead to inaccurate results if not handled explicitly.
+* **Solution:** Replaced missing values with documented defaults and ran additional matching passes for unmatched rows, with assumptions recorded in the notebook.
+
+---
 
 ## Technologies Used
-- **Programming Language**: Python
-- **Libraries**: Pandas, Re
-- **Tools**: Jupyter Notebook, Git
+
+* **Programming language:** Python
+* **Libraries:** pandas, re
+* **Tools:** Jupyter Notebook, Git
+
+---
+
+## Responsible Data Note
+
+This project worked with data from a private source. To respect the confidentiality of the partner organization and the sensitivity of the domain, this repository does not include:
+
+* the original datasets or any extracts of them;
+* specific record counts or field names;
+* operational matching rules or thresholds used in the pipeline;
+* results or findings derived from the matched data.
+
+The repository documents the analytical workflow, methodological choices, data-quality challenges, and reproducibility principles applied during the project.
+
+---
 
 ## Conclusion
-This project has successfully developed a robust system for cross-referencing and matching firearms datasets, enhancing data accuracy and providing meaningful insights for firearms import control.
+
+The project produced a reproducible pipeline to harmonize and match records across two heterogeneous datasets, with documented assumptions and responsible handling of sensitive policy data.
+
+It demonstrates an applied approach to data cleaning, harmonization, record linkage, quality assurance, and reproducible analysis in a public-safety context.
+
+---
 
 ## Next Steps
-- Explore advanced machine learning techniques for improved record matching.
-- Extend the system to include more datasets and broader analysis.
-- Collaborate with NGOs to apply the findings in real-world scenarios.
+
+* Explore more advanced record-linkage and probabilistic matching techniques.
+* Extend the methodology to additional complementary datasets, where appropriate.
+* Continue collaboration with the partner NGO on refinements aligned with their analytical priorities.
+
+---
 
 ## Files
-- **[Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_datasets_cross_referencing_and_matching_system.ipynb)**: Contains the full analysis and model implementation.
-- **Data**: Data can not be provided since is from a private source.
+
+* **[Notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_datasets_cross_referencing_and_matching_system.ipynb):** Contains a sanitized version of the analytical workflow and implementation structure. Sensitive data, operational rules, thresholds, and partner-specific details are not disclosed.
+* **Data:** Data cannot be shared, as it comes from a private source.
+
+---
 
 ## Contact
-Feel free to reach out if you have any questions or want to collaborate on future projects.
 
-- **Email**: jbertolucci@gmail.com
-- **LinkedIn**: [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
+Feel free to reach out with questions or to discuss possible collaborations.
+
+* **Email:** [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
+* **LinkedIn:** [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
+* **GitHub:** [julianabpeixoto](https://github.com/julianabpeixoto)
+
 - **GitHub**: [JulianaBPeixoto](https://github.com/julianabpeixoto)
 
 ---
