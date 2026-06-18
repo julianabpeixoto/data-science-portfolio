@@ -229,7 +229,3 @@ Feel free to reach out with questions or to discuss possible collaborations.
 * **Email:** [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
 * **LinkedIn:** [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
 * **GitHub:** [julianabpeixoto](https://github.com/julianabpeixoto)
-
-- **GitHub**: [JulianaBPeixoto](https://github.com/julianabpeixoto)
-
----
