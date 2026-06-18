@@ -48,7 +48,7 @@ These projects are the most relevant examples of my applied data science work fo
 
 ---
 
-## Arsenal do Crime — Seized Firearms in Southeast Brazil, 2018–2023
+### Arsenal do Crime — Seized Firearms in Southeast Brazil, 2018–2023
 
 **Instituto Sou da Paz · Public safety · Firearms policy · Data automation · Published report**
 
@@ -75,11 +75,11 @@ The project supported evidence generation on the profile, temporality, and circu
 This repository does not include the original dataset or operationally sensitive rules. It documents the analytical workflow, data-quality challenges, and reproducibility principles applied in the project.
 
 [→ View case study](./07.Sou_da_Paz_Arsenal_do_Crime/README.md)
-[→ View published report](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-n%D0%BE-sudeste-2018-2023/)
+[→ View published report](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-no-sudeste-2018-2023/)
 
 ---
 
-## Firearms Import Control Cross-Referencing and Matching System
+### Firearms Import Control Cross-Referencing and Matching System
 
 **Public policy · Government data · Record linkage · Data quality**
 
@@ -106,7 +106,7 @@ Government and administrative datasets are often fragmented, inconsistent, and d
 
 ---
 
-## Mental Health Treatment Analysis
+### Mental Health Treatment Analysis
 
 **Mental health · Public health · Machine learning · Survey data**
 
@@ -131,13 +131,13 @@ The project connects data science with mental health and public health questions
 
 ---
 
-# Additional Projects
+## Additional Projects
 
 The projects below were developed as part of my data science training and applied learning process. They demonstrate foundations in exploratory analysis, SQL, statistics, machine learning, and data visualization.
 
 ---
 
-## KNN Library from Scratch
+### KNN Library from Scratch
 
 **Machine learning fundamentals · Pure Python · Collaborative project**
 
@@ -161,7 +161,7 @@ The project demonstrates understanding of the underlying logic behind a classic 
 
 ---
 
-## US School Shootings Analysis
+### US School Shootings Analysis
 
 **Public policy · Education · SQL · Exploratory data analysis**
 
@@ -183,12 +183,12 @@ The project connects data analysis with public policy questions related to schoo
 * Visualization of social patterns
 * Policy-oriented interpretation
 
-[→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/santander_coders_2023_2semestre_trilha_data_science_banco_dados_projeto_final/README.md)
+[→ View detailed project](https://github.com/julianabpeixoto/neurons-frying/blob/main/santander_coders_2023_2semestre_trilha_data_science_banco_dados_projeto_final/README.md)
 [→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/02.SC2023_Module3/adabd_jbp_projeto_final_us_school_shootings.ipynb)
 
 ---
 
-## Statistical Analysis of School Shootings and City Population
+### Statistical Analysis of School Shootings and City Population
 
 **Statistics · Public policy · Data visualization · Follow-up project**
 
@@ -213,7 +213,7 @@ The project illustrates how moving from exploratory to statistical analysis may 
 
 ---
 
-## Predicting Firearm Brands
+### Predicting Firearm Brands
 
 **Public safety · Machine learning · Classification**
 
@@ -238,7 +238,7 @@ The project explores how machine learning can support classification and catalog
 
 ---
 
-## Exploratory Data Analysis of Online Sales
+### Exploratory Data Analysis of Online Sales
 
 **Business data · Exploratory analysis · Visualization**
 
@@ -262,7 +262,7 @@ Although less directly related to public policy, this project demonstrates core 
 
 ---
 
-# Responsible Data and AI
+## Responsible Data and AI
 
 Many projects in this portfolio deal with sensitive social and policy issues, including public safety, mental health, education, and government data. For this reason, I pay particular attention to:
 
@@ -275,7 +275,7 @@ Many projects in this portfolio deal with sensitive social and policy issues, in
 
 ---
 
-# About Me
+## About Me
 
 I hold an **MSc in Developmental Cognitive Neuroscience from the University of York**, awarded with Distinction, and was a **Chevening Scholar**. My research background includes mental health, therapeutic writing, active self-care, and empowerment.
 
@@ -285,11 +285,11 @@ My current goal is to deepen my work in **data science for public policy, public
 
 ---
 
-# Contact
+## Contact
 
-**Email:** [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
-**LinkedIn:** [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
-**GitHub:** [julianabpeixoto](https://github.com/julianabpeixoto)
+* **Email:** [jbertolucci@gmail.com](mailto:jbertolucci@gmail.com)
+* **LinkedIn:** [Juliana Bertolucci Peixoto](https://www.linkedin.com/in/julianabpeixoto)
+* **GitHub:** [julianabpeixoto](https://github.com/julianabpeixoto)
 
 ---
 
