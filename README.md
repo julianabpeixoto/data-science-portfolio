@@ -75,7 +75,7 @@ The project supported evidence generation on the profile, temporality, and circu
 This repository does not include the original dataset or operationally sensitive rules. It documents the analytical workflow, data-quality challenges, and reproducibility principles applied in the project.
 
 [→ View case study](./07.Sou_da_Paz_Arsenal_do_Crime/README.md)
-[→ View published report](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-no-sudeste-2018-2023/)
+[→ View published report](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-n%D0%BE-sudeste-2018-2023/)
 
 ---
 
