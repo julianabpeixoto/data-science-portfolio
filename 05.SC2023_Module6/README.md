@@ -119,7 +119,7 @@ Because the dataset is based on self-reported survey responses, results should b
 * Separated explanatory variables and target variable.
 * Encoded categorical variables.
 * Split the data into training and test sets.
-* Addressed class imbalance using SMOTE within the modeling workflow.
+* Tested SMOTE for class imbalance, but kept the BinaryEncoder in the final model, as SMOTE did not change the results.
 
 ### Unsupervised Learning Preparation
 
@@ -151,7 +151,6 @@ Model evaluation included:
 Hyperparameter optimization was conducted using:
 
 * **GridSearchCV**
-* **StratifiedKFold**
 
 ### Unsupervised Models
 
@@ -172,11 +171,13 @@ Evaluation and interpretation included:
 
 ## Key Findings
 
-The supervised learning models showed that selected demographic, occupational, and mental health-related variables were associated with treatment-seeking classification in the dataset.
+The tuned XGBoost model reached an accuracy of approximately 0.78 and an AUC-ROC of approximately 0.87 on the test set, performing marginally better than the untuned baseline configuration — the difference between the two was small.
 
-After hyperparameter tuning, the XGBoost model achieved the strongest performance among the tested supervised models. Feature-importance analysis suggested that variables such as family history, employment-related characteristics, and self-reported changes in habits or sleep patterns contributed to model predictions.
+Feature-importance analysis pointed to self-reported behavioral and mental-health variables as the most influential: mood swings, mental health history, changes in habits, and growing stress ranked highest, followed by days indoors and family history.
 
-These findings should be interpreted as exploratory and dataset-specific. They do not establish causality and should not be used as clinical recommendations.
+The unsupervised methods did not produce well-defined clusters: K-Means returned low silhouette scores (around 0.02 and below) and high Davies-Bouldin indices, and DBSCAN classified most points as noise — the dataset does not separate into clear groups under these methods.
+
+These findings are exploratory and dataset-specific. They do not establish causality and should not be used as clinical recommendations.
 
 ---
 
@@ -223,7 +224,6 @@ Key principles considered:
 * **XGBoost**
 * **SMOTE**
 * **GridSearchCV**
-* **StratifiedKFold**
 
 ### Data Visualization
 
