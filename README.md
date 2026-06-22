@@ -127,7 +127,7 @@ The project connects data science with mental health and public health questions
 * Interpretation of results for applied health questions
 
 [→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.SC2023_Module6/README.md)
-[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.SC2023_Module6/jbp_projeto_final_ada_ml_II.ipynb)
+[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.SC2023_Module6/mental_health_treatment_analysis.ipynb)
 
 ---
 
