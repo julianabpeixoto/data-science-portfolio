@@ -102,7 +102,7 @@ Government and administrative datasets are often fragmented, inconsistent, and d
 * Working responsibly with sensitive policy data
 
 [→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/README.md)
-[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_matching_system_sanitized.ipynb.ipynb)
+[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_matching_system_sanitized.ipynb)
 
 ---
 
