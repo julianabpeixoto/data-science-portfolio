@@ -165,13 +165,13 @@ Evaluation and interpretation included:
 
 * cluster visualization;
 * comparison of clustering outputs;
-* Silhouette Coefficient, where appropriate.
+* Silhouette Coefficient and Davies-Bouldin Index, where appropriate.
 
 ---
 
 ## Key Findings
 
-The tuned XGBoost model reached an accuracy of approximately 0.78 and an AUC-ROC of approximately 0.87 on the test set, performing marginally better than the untuned baseline configuration — the difference between the two was small.
+The tuned XGBoost model reached an accuracy of around 0.77–0.78 and an AUC-ROC of around 0.87 on the test set, performing marginally better than the untuned baseline configuration — the difference between the two was small.
 
 Feature-importance analysis pointed to self-reported behavioral and mental-health variables as the most influential: mood swings, mental health history, changes in habits, and growing stress ranked highest, followed by days indoors and family history.
 
@@ -268,7 +268,7 @@ This project was developed as part of **Santander Coders 2023 | Data Science**, 
 
 ## Files
 
-* **[Notebook](./jbp_projeto_final_ada_ml_II.ipynb):** Contains the full exploratory analysis, preprocessing, model implementation, evaluation, and visualizations.
+* **[Notebook](./mental_health_treatment_analysis.ipynb):** Contains the full exploratory analysis, preprocessing, model implementation, evaluation, and visualizations.
 * **[Data Source](https://www.kaggle.com/datasets/divaniazzahra/mental-health-dataset):** Public Kaggle dataset used in the project.
 
 ---
