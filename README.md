@@ -74,7 +74,7 @@ The project supported evidence generation on the profile, temporality, and circu
 **Responsible data note:**
 This repository does not include the original dataset or operationally sensitive rules. It documents the analytical workflow, data-quality challenges, and reproducibility principles applied in the project.
 
-[→ View case study](./07.Sou_da_Paz_Arsenal_do_Crime/README.md)
+[→ View case study](./07.ISDP_Arsenal_do_Crime/README.md)
 [→ View published report](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-n%D0%BE-sudeste-2018-2023/)
 
 ---
@@ -83,7 +83,7 @@ This repository does not include the original dataset or operationally sensitive
 
 **Public policy · Government data · Record linkage · Data quality**
 
-This volunteer project was developed in collaboration with a data team supporting a UK-based NGO operating in conflict-affected contexts. It focuses on cross-referencing and matching heterogeneous firearms import datasets to identify patterns and connections across documentation and importation data.
+This volunteer project was developed in collaboration with a data team supporting a UK-based NGO operating in conflict-affected contexts. It focuses on cross-referencing and matching heterogeneous datasets on firearms imports to identify patterns and connections across documentation and import data.
 
 The project involved extensive data cleaning, transformation, harmonization, and matching processes to improve the accuracy and reliability of cross-referenced data from different sources.
 
@@ -101,8 +101,8 @@ Government and administrative datasets are often fragmented, inconsistent, and d
 * Documenting assumptions and limitations
 * Working responsibly with sensitive policy data
 
-[→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/README.md)
-[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Volunteer_Project_01/firearms_matching_system_sanitized.ipynb)
+[→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Firearms_Matching_System/README.md)
+[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/06.Firearms_Matching_System/firearms_matching_system_sanitized.ipynb)
 
 ---
 
@@ -116,7 +116,7 @@ This project develops and evaluates supervised and unsupervised machine learning
 Python · pandas · NumPy · scikit-learn · NLTK · spaCy · matplotlib · seaborn
 
 **Why it matters:**
-The project connects data science with mental health and public health questions. It explores how demographic, occupational, and behavioral variables may relate to whether individuals seek mental health treatment.
+The project connects data science with questions in mental health and public health. It explores how demographic, occupational, and behavioral variables may relate to whether individuals seek mental health treatment.
 
 **Key skills demonstrated:**
 
@@ -126,8 +126,8 @@ The project connects data science with mental health and public health questions
 * Model comparison and evaluation
 * Interpretation of results for applied health questions
 
-[→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.SC2023_Module6/README.md)
-[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.SC2023_Module6/mental_health_treatment_analysis.ipynb)
+[→ View detailed project](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.Mental_Health_Treatment_Analysis/README.md)
+[→ View notebook](https://github.com/julianabpeixoto/data-science-portfolio/blob/main/05.Mental_Health_Treatment_Analysis/mental_health_treatment_analysis.ipynb)
 
 ---
 
