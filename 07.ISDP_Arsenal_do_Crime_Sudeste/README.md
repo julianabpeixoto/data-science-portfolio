@@ -175,7 +175,7 @@ It also illustrates the importance of responsible data practices when working wi
 
 The full report is available on the Instituto Sou da Paz website:
 
-[Arsenal do Crime: Análise do perfil das armas de fogo apreendidas no Sudeste, 2018–2023](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-no-sudeste-2018-2023/)
+[Arsenal do Crime: Análise do perfil das armas de fogo apreendidas no Sudeste, 2018–2023](https://soudapaz.org/documentos/arsenal-do-crime-analise-do-perfil-das-armas-de-fogo-apreendidas-n%D0%BE-sudeste-2018-2023/)
 
 ---
 
